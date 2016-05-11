@@ -3,14 +3,14 @@ require "language/go"
 class GithubMarkdownToc < Formula
   desc "Easy TOC creation for GitHub README.md (in go)"
   homepage "https://github.com/ekalinin/github-markdown-toc.go"
-  url "https://github.com/ekalinin/github-markdown-toc.go/archive/0.5.0.tar.gz"
-  sha256 "78ea87ab18fd213e52b217d7ec0bc4eb56a8dbeb2331b82376e6a741b0121d1d"
+  url "https://github.com/ekalinin/github-markdown-toc.go/archive/0.6.0.tar.gz"
+  sha256 "fe6995e9f06febca0f3a68d0df5f124726737bcfbcc027dce4aa9d5dfa1ee5ae"
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "6f74ddef6dc13984186533a00ce3fb5a91b1a12e99715b5f6224047a2d9d28d8" => :el_capitan
-    sha256 "3f80c515b7e70ce59bd583ba3f61dab1e563c4b3032d6220ecda555fd1f3bfb1" => :yosemite
-    sha256 "a46a542a52ce0e758f544e6ab1a5245683bdee7697142ad0159df8d4a74aa32e" => :mavericks
+    sha256 "69fa10cb92f8674bd610b29fad0708ae30248c7ec1635bbd419cdd6f80f3273b" => :el_capitan
+    sha256 "b68351ec94b8aa3ef4ab146acc4397a10737d684a4776642a3c0e8cf07c00deb" => :yosemite
+    sha256 "7439b7dd49932ada1b2fc943ff6093a856760c7420048f1f780740fedaca88e2" => :mavericks
   end
 
   depends_on "go" => :build
